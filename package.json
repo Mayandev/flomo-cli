@@ -1,0 +1,37 @@
+{
+  "name": "flomo-cli",
+  "version": "0.0.1",
+  "description": "A command line tool for the flomo app",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '**/*.{json,js,md,yml}'",
+    "pretty-quick": "pretty-quick",
+    "prepublishOnly": "np --no-cleanup --no-publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mayandev/flomo-cli"
+  },
+  "keywords": [
+    "flomo",
+    "note",
+    "cli"
+  ],
+  "author": "phillzou <phillzou@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayandev/flomo-cli/issues"
+  },
+  "homepage": "https://github.com/Mayandev/flomo-cli#readme",
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "husky": "^4.3.7",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
