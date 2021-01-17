@@ -73,7 +73,7 @@ async function setConfig() {
   const { apiURL } = await inquirer.prompt([
     {
       type: 'input',
-      message: 'Input flomo api link: ',
+      message: 'Config flomo api link: ',
       name: 'apiURL',
       validate: (ans) => {
         if (!ans.match(URL_REG)) {
@@ -87,14 +87,14 @@ async function setConfig() {
 }
 
 async function saveFlomo(content) {
+  if (_.isEmpty(content)) {
+    return;
+  }
   const savedConfig = await config.load();
   const apiURL = _.get(savedConfig, 'apiURL', '');
   if (!apiURL.match(URL_REG)) {
     console.log(chalk.red('Invalid URL, Please check you config.'));
     return;
-  }
-  if (_.isEmpty(content)) {
-    console.log(chalk.cyan('You did not input content!'));
   }
   const spinner = ora('Uploading flomo...').start();
   // request post flomo
