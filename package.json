@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "A command line tool for the flomo app",
   "main": "index.js",
+  "bin": {
+    "flomo": "bin/main.js",
+    "fm": "bin/main.js"
+  },
   "scripts": {
     "format": "prettier --write '**/*.{json,js,md,yml}'",
     "pretty-quick": "pretty-quick",
@@ -23,12 +27,23 @@
     "url": "https://github.com/Mayandev/flomo-cli/issues"
   },
   "homepage": "https://github.com/Mayandev/flomo-cli#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "command-exists": "^1.2.9",
+    "commander": "^6.2.1",
+    "execa": "^5.0.0",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "minimist": "^1.2.5",
+    "ora": "^5.2.0"
+  },
   "devDependencies": {
     "eslint": "^7.17.0",
     "husky": "^4.3.7",
+    "np": "^7.0.0",
     "prettier": "^2.2.1",
-    "pretty-quick": "^3.1.0",
-    "np": "^7.0.0"
+    "pretty-quick": "^3.1.0"
   },
   "husky": {
     "hooks": {
