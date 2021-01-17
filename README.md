@@ -18,6 +18,8 @@ $ yarn global add flomo-cli
 
 ## Usage
 
+![flomo](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/flomo.png)
+
 ### Normal
 
 ```bash
