@@ -34,7 +34,7 @@ $ flomo edit
 
 工具提供编辑器模式，输入 `flomo edit` 启动。
 
-![github-flomo.cli](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/github-flomo.cli.gif)
+![github-flomo-cli](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/github-flomo-cli.gif)
 
 ### Config
 
