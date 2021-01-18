@@ -38,6 +38,10 @@ $ flomo edit
 
 ![github-flomo-cli-gif](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/github-flomo-cli-gif.gif)
 
+
+
+![image-20210118105159846](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/image-20210118105159846.png)
+
 ### Config
 
 如果你在 flomo 的设置里更换了 api，可以使用 `flomo config` 命令，重新设置 api 链接。
