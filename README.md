@@ -25,6 +25,8 @@ $ yarn global add flomo-cli
 
 请先使用下面的命令进行配置 api。如果你在 flomo 的设置里更换了 api，也可以使用 `flomo config` 命令，重新设置 api 链接。
 
+[在哪里查看 api？](https://flomoapp.com/iwh/MjY3NDM/19a24a215dc051f29d8f8d9328a9b329/)
+
 ```bash
 $ flomo config
 ```
