@@ -20,6 +20,15 @@ $ yarn global add flomo-cli
 
 ![flomo](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/flomo.png)
 
+
+### Config
+
+请先使用下面的命令进行配置 api。如果你在 flomo 的设置里更换了 api，也可以使用 `flomo config` 命令，重新设置 api 链接。
+
+```bash
+$ flomo config
+```
+
 ### Normal
 
 ```bash
@@ -44,13 +53,6 @@ $ flomo edit
 
 ![image-20210118105159846](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/image-20210118105159846.png)
 
-### Config
-
-如果你在 flomo 的设置里更换了 api，可以使用 `flomo config` 命令，重新设置 api 链接。
-
-```bash
-$ flomo config
-```
 
 ## Reference
 
