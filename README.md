@@ -24,6 +24,8 @@ $ yarn global add flomo-cli
 
 ```bash
 $ flomo '#tag This is a flow momery from flomo-cli with hash tag.'
+# fm is also ok
+$ fm '#tag This is a flow momery from flomo-cli with hash tag.'
 ```
 
 普通模式下，默认将命令后的字符串内容上传到 flomo 到服务器。
