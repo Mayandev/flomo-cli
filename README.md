@@ -49,6 +49,8 @@ $ flomo edit
 
 工具提供编辑器模式，输入 `flomo edit` 启动。
 
+[如何多行编辑？](https://github.com/Mayandev/flomo-cli/issues/1#issuecomment-781298951)
+
 ![github-flomo-cli-gif](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/github-flomo-cli-gif.gif)
 
 
